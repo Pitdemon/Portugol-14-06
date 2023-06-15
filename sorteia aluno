@@ -1,0 +1,13 @@
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    inteiro tamanho, indice
+    cadeia alunos[] = {"Silvio", "Kleiton", "Matheus Silva", "Guilherme", "Vitória", "Matheus Pererira", "Luis", "Mikael", "Douglas", 
+    "Bruno", "João Pedro", "Igor", "Beatriz", "Matheus  dos Santos", "João Gabriel", "Vinicius", "Kauã"}
+
+    tamanho = u.numero_elementos(alunos)
+    indice = u.sorteia(0, (tamanho - 1 ))
+    escreva("Sortudo: " + alunos[indice])
+
+  }
+}
